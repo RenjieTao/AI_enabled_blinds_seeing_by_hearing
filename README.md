@@ -1,5 +1,5 @@
 # AI enabled blinds seeing by hearing
-
+## Introduction
 According to Gloabl Data on Visual Impairments report, World Health Organization, there are at least 2.2 billion people having a vision impairment, of whom at least 36 million of those were blind, 217 million peeople had moderate to severe visual impairment. The number of blind people increased by 17.6% from 1990 to 2015 (1).
 
 The lose of eye sight makes a lot of challenges to blind people when facing life, such as navigating around places, societal stigma, finding and keeping a job, and enjoying their lives.
@@ -12,7 +12,6 @@ The intuition of this work is to help blind people to "**see**" by "**hearing**"
 
 ## Step 1: Image captioning
 *Note: our image captioning model is based on the [Show, Attend, and Tell](https://arxiv.org/abs/1502.03044) paper and this [implementation](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)*
-
 ### Encoder
 
 
