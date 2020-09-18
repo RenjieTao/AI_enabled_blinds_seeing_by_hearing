@@ -8,9 +8,9 @@ The lose of eye sight makes a lot of challenges to blind people when facing life
 
 Artifical intenlligence (AI) technology is begining to make its way into vision applications in a wide range of industries, expanding on existing capabilities and opening up entirely new possibilities in vision. The rise of computer vision already shows great potential in self-driving vehicles, manufacturing robotics, medical diagnosis, agriculture, and safety surveillance (2).
 
-The intuition of this work is to help blind people to "**see**" by "**hearing**" the world with the state-of-the-art computer vision technique. We developed a two-step neural network, first transfer an image into a textual description, then transfer this caption into an audio clip, speaking out for the blind people to hear. By deploying this algorithm to a live video, we can hearing, in real time, what is happening right in front of the camera.
+The intuition of this work is to help blind people to "**see**" by "**hearing**" the world with the state-of-the-art computer vision technique. We developed a **two-step** neural network, first transfer an image into a textual description, then transfer this caption into an audio clip, speaking out for the blind people to hear. By deploying this algorithm to a live video, we can hearing, in real time, what is happening right in front of the camera.
 
-## Image captioning
+## Step 1: Image captioning
 
 
 References 
