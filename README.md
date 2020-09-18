@@ -11,7 +11,9 @@ Artifical intenlligence (AI) technology is begining to make its way into vision 
 The intuition of this work is to help blind people to "**see**" by "**hearing**" the world with the state-of-the-art computer vision technique. We developed a **two-step** neural network, first transfer an image into a textual description, then transfer this caption into an audio clip, speaking out for the blind people to hear. By deploying this algorithm to a live video, we can hearing, in real time, what is happening right in front of the camera.
 
 ## Step 1: Image captioning
+This model can generate a descriptive cation for an image.
 *Note: our image captioning model is based on the [Show, Attend, and Tell](https://arxiv.org/abs/1502.03044) paper and this [implementation](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)*
+
 ### Encoder
 
 
