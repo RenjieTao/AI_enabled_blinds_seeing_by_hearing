@@ -18,7 +18,7 @@ This model can generate a descriptive cation for an image.
 ### Encoder
 This encoder encodes an image with 3 color channels into a smaller image with learned channels.
 
-![alt text](/home/renjie/Downloads/plane.png "Logo Title Text 1")
+![alt text](images/plane.png "Logo Title Text 1")
 
 ## References 
 1. Bourne RRA, Flaxman SR, Braithwaite T, Cicinelli MV, Das A, Jonas JB, et al.; Vision Loss Expert Group. Magnitude, temporal trends, and projections of the global prevalence of blindness and distance and near vision impairment: a systematic review and meta-analysis. Lancet Glob Health. 2017 Sep;5(9):e888–97.
