@@ -4,7 +4,7 @@ According to Gloabl Data on Visual Impairments report, World Health Organization
 
 The lose of eye sight makes a lot of challenges to blind people when facing life, such as navigating around places, societal stigma, finding and keeping a job, and enjoying their lives.
 
-<img src="images/blindman.jpeg"  width="300" height='200'>
+<img src="images/scent_of_a_woman.jpeg">
 
 Artifical intenlligence (AI) technology is begining to make its way into vision applications in a wide range of industries, expanding on existing capabilities and opening up entirely new possibilities in vision. The rise of computer vision already shows great potential in self-driving vehicles, manufacturing robotics, medical diagnosis, agriculture, and safety surveillance (2).
 
