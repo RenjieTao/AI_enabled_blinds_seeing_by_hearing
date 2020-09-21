@@ -8,9 +8,9 @@ The lose of eye sight makes a lot of challenges to blind people when facing life
 
 Artifical intenlligence (AI) technology is begining to make its way into vision applications in a wide range of industries, expanding on existing capabilities and opening up entirely new possibilities in vision. The rise of computer vision already shows great potential in self-driving vehicles, manufacturing robotics, medical diagnosis, agriculture, and safety surveillance (2).
 
-The intuition of this work is to help blind people to "**see**" by "**hearing**" the world with the state-of-the-art computer vision technique. We developed a **two-step** neural network, first transfer an image into a textual description, then transfer this caption into an audio clip, speaking out for the blind people to hear. By deploying this algorithm to a live video, we can hearing, in real time, what is happening right in front of the camera.
+The intuition of this work is to help blind people to "**see**" by "**hearing**" the world with the state-of-the-art computer vision technique. We developed a **two-step** neural network, first transfer an **image into a textual description**, then **transfer this caption into an audio clip**, speaking out for the blind people to hear. By deploying this algorithm to a live video, we can hearing, in real time, what is happening right in front of the camera.
 
-## Step 1: Image captioning
+## Step 1: Image to text captioning
 This Encoder-Decoder model can generate a descriptive cation for an image.
 
 *Note: our image captioning model is based on the [Show, Attend, and Tell](https://arxiv.org/abs/1502.03044) paper and this [implementation](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)*
@@ -27,7 +27,22 @@ We choose the sequence that has the **top k** highest overall score from the bas
 <img src="images/beam_search.png">
 
 
-## Step 2: Image captioning
+## Step 2: Text to speech
+This network transfers the caption from Step 1 into an audio clip
+
+*Note: our text-to-speech model is based on Deepmind's WaveRNN from [Efficient Neural Audio Synthesis](https://arxiv.org/abs/1802.08435v1) and this [implementation](https://github.com/fatchord/WaveRNN)*
+<img src="images/tacotron_wavernn.png">
+
+## Quick Start
+fsdaf
+
+## Outlook
+#### 1. Real-time processing
+The current processing speed from an image to an anduio clip is around 4 second, based on an AMD 3700X CPU and Titan Xp GPU. Ultrimate goal for real-world application is to apply this model to light-weight mobil systems, such as smart phones and NVIDIA Jetson Nano Developer Kit.
+#### 2. Nevigation for blinds
+Nevigating blind people is one of the most desired function. Our current model shows ability to recognize the world in more general purpose, in the following version, a fork model will be provided focusing on gevigating blind people from A to B. 
+#### 3. Smart suggestions
+Our current version focuses on *knowing* what is happenning, but not *understanding* what is happenning. In our next version, our model will show ability to providing smart suggestions to blind people based on real-time scenes.
 
 ## References 
 1. Bourne RRA, Flaxman SR, Braithwaite T, Cicinelli MV, Das A, Jonas JB, et al.; Vision Loss Expert Group. Magnitude, temporal trends, and projections of the global prevalence of blindness and distance and near vision impairment: a systematic review and meta-analysis. Lancet Glob Health. 2017 Sep;5(9):e888–97.
