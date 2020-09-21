@@ -15,16 +15,12 @@ This Encoder-Decoder model can generate a descriptive cation for an image.
 
 *Note: our image captioning model is based on the [Show, Attend, and Tell](https://arxiv.org/abs/1502.03044) paper and this [implementation](https://github.com/sgrvinod/a-PyTorch-Tutorial-to-Image-Captioning)*
 
-### Encoder
+#### Encoder
 This encoder encodes an image with 3 color channels into a smaller image with learned channels. We choose **ResNet-101** network trained on the ImageNet classification task. The final encoding has a size of 14 by 14 with 2048 channels.
-<img src="images/model.png">
 
-### Decoder
+#### Decoder
 Decoder use the encoded image and generate a caption word by word. We use an LSTM network with **Attention**, which the decoder will be able to look at defferent parts of the image at different points in the sequence. The Attention network computes the weighted average across all pixels, with important pixels being greater, indicating the region to generate the next word.
-
-### Beam Seaerch
-We choose the sequence that has the **top k** highest overall score from the basket of candidate sequences. Some low score sequences may fail out early before stop.
-<img src="images/beam_search.png">
+<img src="images/model.png">
 
 
 ## Step 2: Text to speech
