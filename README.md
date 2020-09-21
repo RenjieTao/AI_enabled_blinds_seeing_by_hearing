@@ -27,9 +27,7 @@ We choose the sequence that has the **top k** highest overall score from the bas
 <img src="images/beam_search.png">
 
 
-
-
-![alt text](images/plane.png "Logo Title Text 1")
+## Step 2: Image captioning
 
 ## References 
 1. Bourne RRA, Flaxman SR, Braithwaite T, Cicinelli MV, Das A, Jonas JB, et al.; Vision Loss Expert Group. Magnitude, temporal trends, and projections of the global prevalence of blindness and distance and near vision impairment: a systematic review and meta-analysis. Lancet Glob Health. 2017 Sep;5(9):e888–97.
